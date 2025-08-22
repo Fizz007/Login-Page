@@ -1,12 +1,40 @@
-# React + Vite
+React Login & Sign-Up App
+📌 Objective
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple Login and Sign-Up application built using React. The goal is to demonstrate concepts like functional components, state management, form handling, validation, routing, and responsive UI.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔑 Login and Sign-Up screens with navigation using React Router.
 
-## Expanding the ESLint configuration
+📱 Responsive design for all screen sizes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Input validation rules:
+
+Name → Only alphabets allowed.
+
+Username → Alphanumeric with special characters.
+
+Password → Alphanumeric + special characters (cannot be same as username).
+
+Confirm Password → Must match password.
+
+Email → Must be a valid Gmail address.
+
+Phone → Must include country code and phone number.
+
+⚠️ Error messages shown below each invalid field.
+
+♻️ Reusable components for inputs and buttons.
+
+🎨 Styled UI for enhanced user experience.
+
+🛠️ Tech Stack
+
+React (Create React App)
+
+React Router (for navigation)
+
+CSS / Tailwind / Styled Components (choose any for styling)
+
+ShadCN Compoenents
