@@ -30,7 +30,6 @@ This project is a simple **Login and Sign-Up application** built using **React**
 ---
 
 
----
 
 ## ⚡ Getting Started  
 
